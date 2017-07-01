@@ -1,0 +1,22 @@
+﻿<h1>Part History</h1>
+
+<p *ngIf="!movements"><em>Loading...</em></p>
+
+<table class='table' *ngIf="movements">
+    <thead>
+        <tr>
+            <th>Station</th>
+            <th>Date</th>            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let movement of movements">
+            <td>{{movement.stationDescr}}</td>
+            <td>{{movement.date | date : 'medium'}}</td>
+        </tr>
+    </tbody>
+</table>
+<div>
+    <button class="btn btn-success" (click)="accept()" style="margin-right:45px;">Accept</button>
+    <button class="btn btn-default" (click)="cancel()">Cancel</button>
+</div>

@@ -1,0 +1,10 @@
+﻿<div class="container-fluid height-full" *ngIf="tagNumber">
+    <div class="row display-flex height-full">        
+        <div class="well col-sm-3">
+            <partdetailslarge [tagNumber]="tagNumber"></partdetailslarge>
+        </div>
+        <div class="well col-sm-9">
+            <partmovements [tagNumber]="tagNumber"></partmovements>
+        </div>
+    </div>
+</div>

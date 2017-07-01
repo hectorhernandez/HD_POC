@@ -1,0 +1,25 @@
+﻿<div *ngIf="!partDetails" class="row">
+    <p class="navbar-text">Loading...</p>
+</div>
+<div class="row">
+    <!--<img class="navbar-brand" src="http://placehold.it/100x70">-->
+    <img *ngIf="partDetails" [src]="partDetails.imagePath" height="150">
+</div>
+<div class="container">
+    <dl *ngIf="partDetails" class="dl-horizontal">
+        <dt><b>Workstation:</b></dt>
+        <dd>{{partDetails.workStation}}</dd>
+        <dt><b>Process:</b></dt>
+        <dd>{{partDetails.process}}</dd>
+        <dt><b>TAG #:</b></dt>
+        <dd>{{partDetails.tagNumber}}</dd>
+        <dt><b>Part #</b></dt>
+        <dd>{{partDetails.partNumber}}</dd>
+        <dt><b>Shape</b></dt>
+        <dd>{{partDetails.shapeDescr}}</dd>
+        <dt><b>Color:</b></dt>
+        <dd>{{partDetails.color}}</dd>
+        <dt><b>Model:</b></dt>
+        <dd>{{partDetails.model}}</dd>
+    </dl>
+</div>

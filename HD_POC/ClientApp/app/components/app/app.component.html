@@ -1,0 +1,11 @@
+<div class='container-fluid height-full'>
+    <div class='row'>
+        <appheader></appheader>       
+        <div *ngIf="_router.url.includes('home')" class='col-sm-3'>
+            <nav-menu></nav-menu>
+        </div>
+        <div class='col-sm body-content'>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

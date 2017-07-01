@@ -1,0 +1,9 @@
+﻿.container dt, .container dd {
+    width: auto;
+    margin-left: auto;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+/*.dl-horizontal dt {
+    text-align: left;
+}*/
