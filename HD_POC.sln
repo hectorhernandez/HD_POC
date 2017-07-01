@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HD_POC", "HD_POC\HD_POC.csproj", "{3FA71CB7-5ED8-4039-A329-D986CEBB7841}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Web", "1.Web", "{EEF070AB-BA98-4ACA-ACC6-7CAFEFA96192}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Business", "2.Business", "{03E3B973-33C3-40C9-9025-D48C59B4C116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HD.Services", "HD.Services\HD.Services.csproj", "{FA35A83E-60A5-40B1-A233-046FF4B3BB84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HD_POC.WebNotifications", "HD_POC.WebNotifications\HD_POC.WebNotifications.csproj", "{9E457320-04A4-4FEE-863E-090938A03E38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FA71CB7-5ED8-4039-A329-D986CEBB7841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA71CB7-5ED8-4039-A329-D986CEBB7841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA71CB7-5ED8-4039-A329-D986CEBB7841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA71CB7-5ED8-4039-A329-D986CEBB7841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA35A83E-60A5-40B1-A233-046FF4B3BB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA35A83E-60A5-40B1-A233-046FF4B3BB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA35A83E-60A5-40B1-A233-046FF4B3BB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA35A83E-60A5-40B1-A233-046FF4B3BB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E457320-04A4-4FEE-863E-090938A03E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E457320-04A4-4FEE-863E-090938A03E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E457320-04A4-4FEE-863E-090938A03E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E457320-04A4-4FEE-863E-090938A03E38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FA71CB7-5ED8-4039-A329-D986CEBB7841} = {EEF070AB-BA98-4ACA-ACC6-7CAFEFA96192}
+		{FA35A83E-60A5-40B1-A233-046FF4B3BB84} = {03E3B973-33C3-40C9-9025-D48C59B4C116}
+		{9E457320-04A4-4FEE-863E-090938A03E38} = {EEF070AB-BA98-4ACA-ACC6-7CAFEFA96192}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://otrosproyectos.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HD_POC\\HD_POC.csproj
+		SccProjectTopLevelParentUniqueName1 = HD_POC.sln
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = HD_POC\\
+		SccProjectUniqueName2 = HD.Services\\HD.Services.csproj
+		SccProjectTopLevelParentUniqueName2 = HD_POC.sln
+		SccProjectName2 = HD.Services
+		SccLocalPath2 = HD.Services
+		SccProjectUniqueName3 = HD_POC.WebNotifications\\HD_POC.WebNotifications.csproj
+		SccProjectTopLevelParentUniqueName3 = HD_POC.sln
+		SccProjectName3 = HD_POC.WebNotifications
+		SccLocalPath3 = HD_POC.WebNotifications
+	EndGlobalSection
+EndGlobal

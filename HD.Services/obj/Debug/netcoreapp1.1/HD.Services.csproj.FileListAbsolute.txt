@@ -1,0 +1,7 @@
+C:\SofttekTFS\HD_POC\HD.Services\bin\Debug\netcoreapp1.1\HD.Services.deps.json
+C:\SofttekTFS\HD_POC\HD.Services\bin\Debug\netcoreapp1.1\HD.Services.dll
+C:\SofttekTFS\HD_POC\HD.Services\bin\Debug\netcoreapp1.1\HD.Services.pdb
+C:\SofttekTFS\HD_POC\HD.Services\obj\Debug\netcoreapp1.1\HD.Services.csprojResolveAssemblyReference.cache
+C:\SofttekTFS\HD_POC\HD.Services\obj\Debug\netcoreapp1.1\HD.Services.AssemblyInfo.cs
+C:\SofttekTFS\HD_POC\HD.Services\obj\Debug\netcoreapp1.1\HD.Services.dll
+C:\SofttekTFS\HD_POC\HD.Services\obj\Debug\netcoreapp1.1\HD.Services.pdb
